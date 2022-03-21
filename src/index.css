@@ -1,0 +1,3782 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+.navbar {
+  background-color: #292929;
+  color: #ebebeb;
+  padding: 2vh 10vw;
+}
+
+.navbar .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .wrapper .top {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 576px) {
+  .navbar .wrapper .top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.navbar .wrapper .top .left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+@media (max-width: 768px) {
+  .navbar .wrapper .top .left {
+    display: none;
+  }
+}
+
+.navbar .wrapper .top .left .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #ebebeb;
+}
+
+.navbar .wrapper .top .left .search input {
+  border: none;
+  height: 2rem;
+  font-size: 1rem;
+  background-color: transparent;
+}
+
+.navbar .wrapper .top .left .search input:focus {
+  outline: none;
+}
+
+.navbar .wrapper .top .left .search .icon {
+  margin-left: 5px;
+  padding: 2px;
+  color: #292929;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.navbar .wrapper .top .left .search .icon:hover {
+  cursor: pointer;
+  color: #ebebeb;
+  background-color: #292929;
+}
+
+.navbar .wrapper .top .left .search .search-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar .wrapper .top .center {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 576px) {
+  .navbar .wrapper .top .center {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.navbar .wrapper .top .center .toggle-btn {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .navbar .wrapper .top .center .toggle-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.navbar .wrapper .top .center .toggle-btn .icon {
+  font-size: 2.2rem;
+  margin: 0 5px;
+  padding: 2px;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.navbar .wrapper .top .center .toggle-btn .icon:hover, .navbar .wrapper .top .center .toggle-btn .icon.active {
+  cursor: pointer;
+  color: #292929;
+  background-color: #ebebeb;
+}
+
+.navbar .wrapper .top .center img {
+  height: 3rem;
+  margin-right: 1rem;
+}
+
+@media (max-width: 992px) {
+  .navbar .wrapper .top .center img {
+    display: none;
+  }
+}
+
+.navbar .wrapper .top .center .title {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+@media (max-width: 992px) {
+  .navbar .wrapper .top .center .title {
+    margin-left: 15px;
+  }
+}
+
+.navbar .wrapper .top .right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+@media (max-width: 576px) {
+  .navbar .wrapper .top .right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 100%;
+  }
+}
+
+.navbar .wrapper .top .right .icon {
+  font-size: 2.2rem;
+  margin: 0 5px;
+  padding: 2px;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.navbar .wrapper .top .right .icon:hover {
+  cursor: pointer;
+  color: #292929;
+  background-color: #ebebeb;
+}
+
+.navbar .wrapper .top .right .login-dropdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border-radius: 50%;
+}
+
+.navbar .wrapper .top .right .login-dropdown .icon-drop {
+  font-size: 2.2rem;
+  margin: 0 5px;
+  padding: 2px;
+}
+
+.navbar .wrapper .top .right .login-dropdown .dropdown-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  color: #292929;
+  background-color: #ebebeb;
+  -webkit-box-shadow: 0px 30px 20px 0px #292929;
+          box-shadow: 0px 30px 20px 0px #292929;
+  z-index: 1;
+  right: 0;
+  top: 100%;
+  border-radius: 0.5rem;
+  border-top-right-radius: 0;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.navbar .wrapper .top .right .login-dropdown .dropdown-list .item {
+  padding: 1rem;
+  width: 200px;
+  text-align: center;
+}
+
+.navbar .wrapper .top .right .login-dropdown .dropdown-list .item:hover {
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.navbar .wrapper .top .right .login-dropdown:hover {
+  background-color: #ebebeb;
+  color: #292929;
+  border-radius: 50%;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  cursor: pointer;
+}
+
+.navbar .wrapper .top .right .login-dropdown:hover .dropdown-list {
+  color: #292929;
+  visibility: visible;
+  opacity: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.navbar .wrapper .bottom {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 70%;
+}
+
+@media (max-width: 992px) {
+  .navbar .wrapper .bottom {
+    width: 100%;
+  }
+}
+
+.navbar .wrapper .bottom .category {
+  color: white;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0.5rem 0;
+  margin: 0 0.5rem;
+  border-radius: 0.5rem;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  position: relative;
+}
+
+@media (max-width: 576px) {
+  .navbar .wrapper .bottom .category {
+    display: none;
+  }
+}
+
+.navbar .wrapper .bottom .category .title {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: white;
+}
+
+.navbar .wrapper .bottom .category .dropdown-list {
+  color: #292929;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  background-color: #ebebeb;
+  -webkit-box-shadow: 0px 30px 20px 0px #292929;
+          box-shadow: 0px 30px 20px 0px #292929;
+  z-index: 1;
+  width: 100%;
+  left: 0;
+  top: 100%;
+}
+
+.navbar .wrapper .bottom .category .dropdown-list .item {
+  padding: 1rem;
+}
+
+.navbar .wrapper .bottom .category .dropdown-list .item:hover {
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.navbar .wrapper .bottom .category:hover {
+  background-color: #ebebeb;
+  color: #292929;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  cursor: pointer;
+}
+
+.navbar .wrapper .bottom .category:hover .title {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #292929;
+}
+
+.navbar .wrapper .bottom .category:hover .dropdown-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.navbar .wrapper .toggle-menu {
+  width: 100%;
+  display: none;
+}
+
+.navbar .wrapper .toggle-menu .toggle-category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0.5rem 0;
+  margin: 0 0.5rem;
+  border-radius: 0.5rem;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.navbar .wrapper .toggle-menu .toggle-category .title {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.navbar .wrapper .toggle-menu .toggle-category .dropdown-list {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #ebebeb;
+  z-index: 1;
+  width: 100%;
+  left: 0;
+  top: 100%;
+}
+
+.navbar .wrapper .toggle-menu .toggle-category .dropdown-list .item {
+  padding: 1rem;
+}
+
+.navbar .wrapper .toggle-menu .toggle-category .dropdown-list .item:hover {
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.navbar .wrapper .toggle-menu .toggle-category:hover {
+  background-color: #ebebeb;
+  color: #292929;
+  cursor: pointer;
+}
+
+.navbar .wrapper .toggle-menu .toggle-category:hover .dropdown-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.slider {
+  padding: 2vh 10vw;
+  position: relative;
+  height: 60vh;
+  background-color: #ebebeb;
+}
+
+@media (max-width: 768px) {
+  .slider {
+    display: none;
+  }
+}
+
+.slider .arrow-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding: 0 1vw;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  z-index: 5;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+
+.slider .arrow-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  padding: 0 1vw;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  z-index: 5;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+
+.slider .arrow-left:hover,
+.slider .arrow-right:hover {
+  background-color: rgba(41, 41, 41, 0.1);
+}
+
+.slider .slide {
+  opacity: 0;
+  -webkit-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+}
+
+.slider .slide .wrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slider .slide .wrapper .image {
+  height: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slider .slide .wrapper .image img {
+  height: 80%;
+  max-width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.slider .slide .wrapper .desc {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.slider .slide .wrapper .desc .title {
+  font-size: 2.5rem;
+  font-weight: 300;
+  letter-spacing: 0.3rem;
+  margin: 30px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.slider .slide .wrapper .desc .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.slider .slide .wrapper .desc .btn button {
+  border: solid 2px #292929;
+  background-color: transparent;
+  font-size: 2rem;
+  padding: 10px 40px;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+
+.slider .slide .wrapper .desc .btn button:hover {
+  background-color: rgba(41, 41, 41, 0.1);
+  cursor: pointer;
+}
+
+.slider .slide.active {
+  opacity: 1;
+  -webkit-transition: all 1.5s ease-in-out;
+  transition: all 1.5s ease-in-out;
+  height: 100%;
+}
+
+.categories {
+  padding: 2vh 10vw;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ebebeb), to(white));
+  background-image: linear-gradient(#ebebeb, white);
+}
+
+.categories .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 15px;
+}
+
+@media (max-width: 768px) {
+  .categories .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.categories .wrapper .item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 40vh;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .categories .wrapper .item {
+    width: 100%;
+  }
+}
+
+.categories .wrapper .item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .categories .wrapper .item img {
+    height: 25vh;
+  }
+}
+
+.categories .wrapper .item .info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.categories .wrapper .item .info .desc {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.categories .wrapper .item .info button {
+  border: none;
+  padding: 15px 30px;
+  background-color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  opacity: 0;
+}
+
+.categories .wrapper .info:hover {
+  background-color: rgba(41, 41, 41, 0.5);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.categories .wrapper .info:hover button {
+  background-color: #ebebeb;
+  cursor: pointer;
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.product-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 10px;
+}
+
+.product-card .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 40vh;
+  background-color: #ebebeb;
+  color: #292929;
+  border-radius: 5px;
+  padding: 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.product-card .wrapper .image {
+  height: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px 0;
+}
+
+.product-card .wrapper .image img {
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 5px;
+}
+
+.product-card .wrapper .desc {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.product-card .wrapper .price {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: 1rem;
+  font-weight: 900;
+  padding: 10px;
+}
+
+.product-card .wrapper button {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: #292929;
+  color: #ebebeb;
+  font-size: 1rem;
+  font-weight: 300;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.product-card .wrapper:hover {
+  cursor: pointer;
+  background-color: #292929;
+  color: #ebebeb;
+}
+
+.product-card .wrapper:hover .image {
+  background-color: #ebebeb;
+}
+
+.product-card .wrapper:hover button {
+  cursor: pointer;
+  background-color: #ebebeb;
+  color: #292929;
+}
+
+.product-card .wrapper:hover button:hover {
+  background-color: #ebebeb;
+}
+
+.product-list {
+  padding: 2vh 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.title-bar {
+  padding: 2vh 10vw;
+  margin-top: 3vh;
+}
+
+.title-bar .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.title-bar .wrapper .title {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #292929;
+  padding-bottom: 0.5rem;
+}
+
+.title-bar .wrapper .subtitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgba(41, 41, 41, 0.7);
+  padding-left: 1rem;
+}
+
+.footer {
+  padding: 2vh 10vw;
+  background-color: #292929;
+  color: #ebebeb;
+}
+
+.footer .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .footer .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.footer .wrapper .left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.footer .wrapper .left .title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.footer .wrapper .desc {
+  margin: 10px 0;
+}
+
+.footer .wrapper .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 15px;
+}
+
+.footer .wrapper .social .icon {
+  border-radius: 100%;
+  padding: 5px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.footer .wrapper .social .icon:hover {
+  background-color: #ebebeb;
+  color: #292929;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+.footer .wrapper .right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.footer .wrapper .right .title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: end;
+}
+
+@media (max-width: 768px) {
+  .footer .wrapper .right .title {
+    text-align: start;
+    margin-top: 20px;
+  }
+}
+
+.footer .wrapper .right .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .footer .wrapper .right .contact {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
+.footer .wrapper .right .contact div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 0;
+}
+
+.footer .wrapper .right .contact div .icon {
+  margin-right: 10px;
+}
+
+.sidebar {
+  background-color: #ebebeb;
+  color: #292929;
+  height: 100%;
+  margin: 10px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border-radius: 5px;
+}
+
+.sidebar .category.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.sidebar .category.active .title {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #ebebeb;
+  background-color: #292929;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.sidebar .category.active .title:hover {
+  cursor: unset;
+}
+
+.sidebar .category.active .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 5px 0px;
+  padding-left: 5px;
+  visibility: visible;
+  opacity: 1;
+  position: static;
+}
+
+.sidebar .category.active .list .item {
+  margin: 5px 0;
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.sidebar .category.active .list .item.active {
+  background-color: rgba(41, 41, 41, 0.1);
+}
+
+.sidebar .category.active .list .item:hover {
+  background-color: rgba(41, 41, 41, 0.1);
+  cursor: pointer;
+}
+
+.sidebar .category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.sidebar .category .title {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #292929;
+  background-color: rgba(41, 41, 41, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.sidebar .category .title:hover {
+  color: #ebebeb;
+  background-color: #292929;
+  cursor: pointer;
+}
+
+.sidebar .category .list {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
+  position: absolute;
+}
+
+.filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-left: 2vw;
+  padding: 15px;
+}
+
+.filter .text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-right: 5px;
+}
+
+.filter select {
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 5px;
+  color: #292929;
+}
+
+.product-details {
+  padding: 2vh 10vw;
+  width: 100%;
+}
+
+.product-details .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media (max-width: 768px) {
+  .product-details .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.product-details .wrapper .image {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 768px) {
+  .product-details .wrapper .image {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.product-details .wrapper .image img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 80%;
+  max-height: 40vh;
+}
+
+.product-details .wrapper .info {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+@media (max-width: 768px) {
+  .product-details .wrapper .info {
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: #292929;
+  }
+}
+
+.product-details .wrapper .info .title {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.product-details .wrapper .info .desc {
+  margin: 30px 0px;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.product-details .wrapper .info .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 600;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.product-details .wrapper .add {
+  margin: 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .product-details .wrapper .add {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.product-details .wrapper .add .amount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.product-details .wrapper .add .amount div {
+  margin-right: 5px;
+}
+
+.product-details .wrapper .add .amount .icon {
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.product-details .wrapper .add .amount .icon:hover {
+  background-color: #ebebeb;
+}
+
+.product-details .wrapper .add .amount .qty {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 5px;
+}
+
+.product-details .wrapper .add button {
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 15px;
+  border: none;
+  background-color: #292929;
+  color: #ebebeb;
+  cursor: pointer;
+  min-width: 35%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+@media (max-width: 992px) {
+  .product-details .wrapper .add button {
+    min-width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-details .wrapper .add button {
+    min-width: 75%;
+  }
+}
+
+.product-details .wrapper .add button:hover {
+  background-color: #ebebeb;
+  color: #292929;
+}
+
+.login-form {
+  padding: 20px;
+  background-color: #ebebeb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  color: #292929;
+}
+
+@media (max-width: 768px) {
+  .login-form {
+    min-width: 100%;
+  }
+}
+
+.login-form .title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.login-form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90%;
+}
+
+.login-form form input {
+  margin: 10px 0px;
+  padding: 10px;
+  width: 90%;
+  background-color: inherit;
+  border: none;
+  border-bottom: 1px solid #292929;
+  font-size: 1rem;
+}
+
+.login-form form button {
+  font-size: 1rem;
+  font-weight: 600;
+  width: 75%;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 15px;
+  border: none;
+  background-color: #292929;
+  color: #ebebeb;
+  cursor: pointer;
+}
+
+.login-form form button:hover {
+  background-color: rgba(41, 41, 41, 0.5);
+}
+
+.login-form form button:disabled {
+  background-color: rgba(41, 41, 41, 0.5);
+}
+
+.login-form form .err {
+  color: red;
+  padding: 10px;
+}
+
+.login-form form a {
+  padding: 10px;
+}
+
+.login-form form a:hover {
+  color: rgba(41, 41, 41, 0.5);
+}
+
+.register-form {
+  padding: 20px;
+  background-color: #ebebeb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  color: #292929;
+}
+
+@media (max-width: 768px) {
+  .register-form {
+    min-width: 100%;
+  }
+}
+
+.register-form .title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.register-form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90%;
+}
+
+.register-form form input {
+  margin: 10px 0px;
+  padding: 10px;
+  width: 90%;
+  background-color: inherit;
+  border: none;
+  border-bottom: 1px solid #292929;
+  font-size: 1rem;
+}
+
+.register-form form button {
+  font-size: 1rem;
+  font-weight: 600;
+  width: 75%;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 15px;
+  border: none;
+  background-color: #292929;
+  color: #ebebeb;
+  cursor: pointer;
+}
+
+.register-form form button:hover {
+  background-color: rgba(41, 41, 41, 0.5);
+}
+
+.register-form form .err {
+  color: red;
+}
+
+.cart-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #292929;
+}
+
+.cart-details .title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.cart-details .error {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #be0000;
+  padding: 5px;
+}
+
+.cart-details .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin: 20px 0;
+}
+
+@media (max-width: 576px) {
+  .cart-details .top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.cart-details .top button {
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  min-width: 200px;
+  margin: 10px 0;
+  padding: 15px;
+  border: none;
+  background-color: #292929;
+  color: #ebebeb;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.cart-details .top button:hover {
+  background-color: rgba(41, 41, 41, 0.5);
+}
+
+.cart-details .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .cart-details .bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.cart-details .bottom .list {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+}
+
+.cart-details .bottom .list .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.cart-details .bottom .list .item .image {
+  margin-right: 10px;
+}
+
+.cart-details .bottom .list .item .image img {
+  padding: 10px;
+  border-radius: 5px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 10vh;
+  max-width: 10vh;
+  background-color: #ebebeb;
+}
+
+.cart-details .bottom .list .item .wrapper {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .cart-details .bottom .list .item .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.cart-details .bottom .list .item .wrapper .details {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.cart-details .bottom .list .item .wrapper .qty {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cart-details .bottom .list .item .wrapper .qty .icon {
+  cursor: pointer;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.cart-details .bottom .list .item .wrapper .qty .icon:hover {
+  background-color: #ebebeb;
+}
+
+.cart-details .bottom .list .item .wrapper .qty div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 10px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.cart-details .bottom .list .item .wrapper .price {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.cart-details .bottom .list .item .delete {
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cart-details .bottom .list .item .delete .icon {
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.cart-details .bottom .list .item .delete .icon:hover {
+  background-color: #ebebeb;
+}
+
+.cart-details .bottom .summary {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #ebebeb;
+  color: #292929;
+  border-radius: 5px;
+  margin-left: 20px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.cart-details .bottom .summary .title {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 20px 0;
+}
+
+.cart-details .bottom .summary .price {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.cart-details .bottom .summary button {
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  min-width: 200px;
+  margin: 20px 0;
+  padding: 10px;
+  border: none;
+  background-color: #292929;
+  color: #ebebeb;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.cart-details .bottom .summary button:hover {
+  background-color: rgba(41, 41, 41, 0.5);
+}
+
+.summary .list {
+  padding: 2vh 10vw;
+}
+
+.summary .list .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.summary .list .item .wrapper {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .summary .list .item .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.summary .list .item .wrapper .details {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.summary .list .item .wrapper .qty {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.summary .list .item .wrapper .qty div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 10px;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.summary .list .item .wrapper .price {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.summary .list .sum {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.admin-navbar {
+  padding: 2vh 10vw;
+  background-color: #292929;
+  color: #ebebeb;
+}
+
+.admin-navbar .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .admin-navbar .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.admin-navbar .wrapper .title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.admin-navbar .wrapper .title:hover {
+  color: white;
+}
+
+.admin-navbar .wrapper button {
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  background-color: #ebebeb;
+  color: #292929;
+  border-radius: 5px;
+  padding: 10px 30px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border: 1px solid #292929;
+  width: 200px;
+}
+
+@media (max-width: 768px) {
+  .admin-navbar .wrapper button {
+    margin-top: 10px;
+  }
+}
+
+.admin-navbar .wrapper button:hover {
+  background-color: #292929;
+  color: #ebebeb;
+  border: 1px solid #ebebeb;
+}
+
+.admin-menu {
+  padding: 2vh 10vw;
+  height: 80vh;
+}
+
+.admin-menu .wrapper .title-bar {
+  padding: 0;
+  margin: 20px 0;
+}
+
+.admin-menu .wrapper .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: -20px;
+}
+
+.admin-menu .wrapper .list .option {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+@media (max-width: 768px) {
+  .admin-menu .wrapper .list .option {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+  }
+}
+
+.admin-menu .wrapper .list .option div {
+  background-color: #ebebeb;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.admin-menu .wrapper .list .option div:hover {
+  background-color: #292929;
+  color: #ebebeb;
+}
+
+.admin-products,
+.admin-categories,
+.admin-slider,
+.admin-users,
+.admin-orders {
+  padding: 2vh 10vw;
+}
+
+.admin-products .top,
+.admin-categories .top,
+.admin-slider .top,
+.admin-users .top,
+.admin-orders .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.admin-products .top .title-bar,
+.admin-categories .top .title-bar,
+.admin-slider .top .title-bar,
+.admin-users .top .title-bar,
+.admin-orders .top .title-bar {
+  padding: 0;
+}
+
+.admin-products .top button,
+.admin-categories .top button,
+.admin-slider .top button,
+.admin-users .top button,
+.admin-orders .top button {
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  background-color: #292929;
+  color: #ebebeb;
+  border-radius: 5px;
+  padding: 10px 30px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  width: 200px;
+}
+
+.admin-products .top button:hover,
+.admin-categories .top button:hover,
+.admin-slider .top button:hover,
+.admin-users .top button:hover,
+.admin-orders .top button:hover {
+  background-color: #ebebeb;
+  color: #292929;
+}
+
+.admin-products .list,
+.admin-categories .list,
+.admin-slider .list,
+.admin-users .list,
+.admin-orders .list {
+  width: 100%;
+}
+
+.admin-products .list .filters,
+.admin-categories .list .filters,
+.admin-slider .list .filters,
+.admin-users .list .filters,
+.admin-orders .list .filters {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #292929;
+  padding: 10px;
+  border-radius: 5px;
+  color: #ebebeb;
+  margin-bottom: 10px;
+}
+
+.admin-products .list .filters .search,
+.admin-categories .list .filters .search,
+.admin-slider .list .filters .search,
+.admin-users .list .filters .search,
+.admin-orders .list .filters .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #ebebeb;
+}
+
+.admin-products .list .filters .search input,
+.admin-categories .list .filters .search input,
+.admin-slider .list .filters .search input,
+.admin-users .list .filters .search input,
+.admin-orders .list .filters .search input {
+  border: none;
+  height: 2rem;
+  font-size: 1rem;
+  background-color: transparent;
+}
+
+.admin-products .list .filters .search input:focus,
+.admin-categories .list .filters .search input:focus,
+.admin-slider .list .filters .search input:focus,
+.admin-users .list .filters .search input:focus,
+.admin-orders .list .filters .search input:focus {
+  outline: none;
+}
+
+.admin-products .list .filters .search .icon,
+.admin-categories .list .filters .search .icon,
+.admin-slider .list .filters .search .icon,
+.admin-users .list .filters .search .icon,
+.admin-orders .list .filters .search .icon {
+  margin-left: 5px;
+  padding: 2px;
+  color: #292929;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.admin-products .list .filters .search .icon:hover,
+.admin-categories .list .filters .search .icon:hover,
+.admin-slider .list .filters .search .icon:hover,
+.admin-users .list .filters .search .icon:hover,
+.admin-orders .list .filters .search .icon:hover {
+  cursor: pointer;
+  color: #ebebeb;
+  background-color: #292929;
+}
+
+.admin-products .list .filters .filter,
+.admin-categories .list .filters .filter,
+.admin-slider .list .filters .filter,
+.admin-users .list .filters .filter,
+.admin-orders .list .filters .filter {
+  padding: 0;
+  margin: 0;
+}
+
+.admin-products .list .filters .filter .text,
+.admin-categories .list .filters .filter .text,
+.admin-slider .list .filters .filter .text,
+.admin-users .list .filters .filter .text,
+.admin-orders .list .filters .filter .text {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0 10px;
+  margin-left: 10px;
+}
+
+.admin-products .list .filters .filter .text.hide.inactive,
+.admin-categories .list .filters .filter .text.hide.inactive,
+.admin-slider .list .filters .filter .text.hide.inactive,
+.admin-users .list .filters .filter .text.hide.inactive,
+.admin-orders .list .filters .filter .text.hide.inactive {
+  display: none;
+}
+
+.admin-products .list .filters .filter select,
+.admin-categories .list .filters .filter select,
+.admin-slider .list .filters .filter select,
+.admin-users .list .filters .filter select,
+.admin-orders .list .filters .filter select {
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 5px;
+  border-radius: 5px;
+  color: #292929;
+  background-color: #ebebeb;
+}
+
+.admin-products .list .filters .filter select.hide.inactive,
+.admin-categories .list .filters .filter select.hide.inactive,
+.admin-slider .list .filters .filter select.hide.inactive,
+.admin-users .list .filters .filter select.hide.inactive,
+.admin-orders .list .filters .filter select.hide.inactive {
+  display: none;
+}
+
+.admin-products .list .grid,
+.admin-categories .list .grid,
+.admin-slider .list .grid,
+.admin-users .list .grid,
+.admin-orders .list .grid {
+  width: 100%;
+}
+
+.admin-products .list .grid .grid-name,
+.admin-categories .list .grid .grid-name,
+.admin-slider .list .grid .grid-name,
+.admin-users .list .grid .grid-name,
+.admin-orders .list .grid .grid-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: 90%;
+}
+
+.admin-products .list .grid .grid-name .grid-image,
+.admin-categories .list .grid .grid-name .grid-image,
+.admin-slider .list .grid .grid-name .grid-image,
+.admin-users .list .grid .grid-name .grid-image,
+.admin-orders .list .grid .grid-name .grid-image {
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-right: 10px;
+}
+
+.admin-products .list .grid .btn,
+.admin-categories .list .grid .btn,
+.admin-slider .list .grid .btn,
+.admin-users .list .grid .btn,
+.admin-orders .list .grid .btn {
+  margin-left: 5px;
+}
+
+.admin-products .list .grid a, .admin-products .list .grid .btn,
+.admin-categories .list .grid a,
+.admin-categories .list .grid .btn,
+.admin-slider .list .grid a,
+.admin-slider .list .grid .btn,
+.admin-users .list .grid a,
+.admin-users .list .grid .btn,
+.admin-orders .list .grid a,
+.admin-orders .list .grid .btn {
+  width: 100%;
+  height: 75%;
+  background-color: #292929;
+  color: #ebebeb;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.admin-products .list .grid a .grid-edit, .admin-products .list .grid .btn .grid-edit,
+.admin-categories .list .grid a .grid-edit,
+.admin-categories .list .grid .btn .grid-edit,
+.admin-slider .list .grid a .grid-edit,
+.admin-slider .list .grid .btn .grid-edit,
+.admin-users .list .grid a .grid-edit,
+.admin-users .list .grid .btn .grid-edit,
+.admin-orders .list .grid a .grid-edit,
+.admin-orders .list .grid .btn .grid-edit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.admin-products .list .grid a:hover,
+.admin-categories .list .grid a:hover,
+.admin-slider .list .grid a:hover,
+.admin-users .list .grid a:hover,
+.admin-orders .list .grid a:hover {
+  background-color: #bb7900;
+  color: #292929;
+}
+
+.admin-products .list .grid .btn:hover,
+.admin-categories .list .grid .btn:hover,
+.admin-slider .list .grid .btn:hover,
+.admin-users .list .grid .btn:hover,
+.admin-orders .list .grid .btn:hover {
+  background-color: #be0000;
+  color: #292929;
+}
+
+.admin-edit-user {
+  min-height: 70vh;
+}
+
+.admin-edit-product,
+.admin-create-product,
+.admin-edit-category,
+.admin-create-category,
+.admin-edit-slider,
+.admin-create-slider,
+.admin-edit-user,
+.admin-edit-order {
+  padding: 2vh 10vw;
+}
+
+.admin-edit-product .top,
+.admin-create-product .top,
+.admin-edit-category .top,
+.admin-create-category .top,
+.admin-edit-slider .top,
+.admin-create-slider .top,
+.admin-edit-user .top,
+.admin-edit-order .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.admin-edit-product .top .title-bar,
+.admin-create-product .top .title-bar,
+.admin-edit-category .top .title-bar,
+.admin-create-category .top .title-bar,
+.admin-edit-slider .top .title-bar,
+.admin-create-slider .top .title-bar,
+.admin-edit-user .top .title-bar,
+.admin-edit-order .top .title-bar {
+  padding: 0;
+}
+
+.admin-edit-product .top button,
+.admin-create-product .top button,
+.admin-edit-category .top button,
+.admin-create-category .top button,
+.admin-edit-slider .top button,
+.admin-create-slider .top button,
+.admin-edit-user .top button,
+.admin-edit-order .top button {
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  background-color: #292929;
+  color: #ebebeb;
+  border-radius: 5px;
+  padding: 10px 30px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  width: 200px;
+}
+
+.admin-edit-product .top button:hover,
+.admin-create-product .top button:hover,
+.admin-edit-category .top button:hover,
+.admin-create-category .top button:hover,
+.admin-edit-slider .top button:hover,
+.admin-create-slider .top button:hover,
+.admin-edit-user .top button:hover,
+.admin-edit-order .top button:hover {
+  background-color: #ebebeb;
+  color: #292929;
+}
+
+.admin-edit-product .bottom,
+.admin-create-product .bottom,
+.admin-edit-category .bottom,
+.admin-create-category .bottom,
+.admin-edit-slider .bottom,
+.admin-create-slider .bottom,
+.admin-edit-user .bottom,
+.admin-edit-order .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 3vw;
+}
+
+.admin-edit-product .bottom .left,
+.admin-create-product .bottom .left,
+.admin-edit-category .bottom .left,
+.admin-create-category .bottom .left,
+.admin-edit-slider .bottom .left,
+.admin-create-slider .bottom .left,
+.admin-edit-user .bottom .left,
+.admin-edit-order .bottom .left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.admin-edit-product .bottom .left .name, .admin-edit-product .bottom .left .category, .admin-edit-product .bottom .left .subcategory, .admin-edit-product .bottom .left .price, .admin-edit-product .bottom .left .stock, .admin-edit-product .bottom .left .desc, .admin-edit-product .bottom .left .order, .admin-edit-product .bottom .left .path, .admin-edit-product .bottom .left .email, .admin-edit-product .bottom .left .amount, .admin-edit-product .bottom .left .adress, .admin-edit-product .bottom .left .status, .admin-edit-product .bottom .left .list,
+.admin-create-product .bottom .left .name,
+.admin-create-product .bottom .left .category,
+.admin-create-product .bottom .left .subcategory,
+.admin-create-product .bottom .left .price,
+.admin-create-product .bottom .left .stock,
+.admin-create-product .bottom .left .desc,
+.admin-create-product .bottom .left .order,
+.admin-create-product .bottom .left .path,
+.admin-create-product .bottom .left .email,
+.admin-create-product .bottom .left .amount,
+.admin-create-product .bottom .left .adress,
+.admin-create-product .bottom .left .status,
+.admin-create-product .bottom .left .list,
+.admin-edit-category .bottom .left .name,
+.admin-edit-category .bottom .left .category,
+.admin-edit-category .bottom .left .subcategory,
+.admin-edit-category .bottom .left .price,
+.admin-edit-category .bottom .left .stock,
+.admin-edit-category .bottom .left .desc,
+.admin-edit-category .bottom .left .order,
+.admin-edit-category .bottom .left .path,
+.admin-edit-category .bottom .left .email,
+.admin-edit-category .bottom .left .amount,
+.admin-edit-category .bottom .left .adress,
+.admin-edit-category .bottom .left .status,
+.admin-edit-category .bottom .left .list,
+.admin-create-category .bottom .left .name,
+.admin-create-category .bottom .left .category,
+.admin-create-category .bottom .left .subcategory,
+.admin-create-category .bottom .left .price,
+.admin-create-category .bottom .left .stock,
+.admin-create-category .bottom .left .desc,
+.admin-create-category .bottom .left .order,
+.admin-create-category .bottom .left .path,
+.admin-create-category .bottom .left .email,
+.admin-create-category .bottom .left .amount,
+.admin-create-category .bottom .left .adress,
+.admin-create-category .bottom .left .status,
+.admin-create-category .bottom .left .list,
+.admin-edit-slider .bottom .left .name,
+.admin-edit-slider .bottom .left .category,
+.admin-edit-slider .bottom .left .subcategory,
+.admin-edit-slider .bottom .left .price,
+.admin-edit-slider .bottom .left .stock,
+.admin-edit-slider .bottom .left .desc,
+.admin-edit-slider .bottom .left .order,
+.admin-edit-slider .bottom .left .path,
+.admin-edit-slider .bottom .left .email,
+.admin-edit-slider .bottom .left .amount,
+.admin-edit-slider .bottom .left .adress,
+.admin-edit-slider .bottom .left .status,
+.admin-edit-slider .bottom .left .list,
+.admin-create-slider .bottom .left .name,
+.admin-create-slider .bottom .left .category,
+.admin-create-slider .bottom .left .subcategory,
+.admin-create-slider .bottom .left .price,
+.admin-create-slider .bottom .left .stock,
+.admin-create-slider .bottom .left .desc,
+.admin-create-slider .bottom .left .order,
+.admin-create-slider .bottom .left .path,
+.admin-create-slider .bottom .left .email,
+.admin-create-slider .bottom .left .amount,
+.admin-create-slider .bottom .left .adress,
+.admin-create-slider .bottom .left .status,
+.admin-create-slider .bottom .left .list,
+.admin-edit-user .bottom .left .name,
+.admin-edit-user .bottom .left .category,
+.admin-edit-user .bottom .left .subcategory,
+.admin-edit-user .bottom .left .price,
+.admin-edit-user .bottom .left .stock,
+.admin-edit-user .bottom .left .desc,
+.admin-edit-user .bottom .left .order,
+.admin-edit-user .bottom .left .path,
+.admin-edit-user .bottom .left .email,
+.admin-edit-user .bottom .left .amount,
+.admin-edit-user .bottom .left .adress,
+.admin-edit-user .bottom .left .status,
+.admin-edit-user .bottom .left .list,
+.admin-edit-order .bottom .left .name,
+.admin-edit-order .bottom .left .category,
+.admin-edit-order .bottom .left .subcategory,
+.admin-edit-order .bottom .left .price,
+.admin-edit-order .bottom .left .stock,
+.admin-edit-order .bottom .left .desc,
+.admin-edit-order .bottom .left .order,
+.admin-edit-order .bottom .left .path,
+.admin-edit-order .bottom .left .email,
+.admin-edit-order .bottom .left .amount,
+.admin-edit-order .bottom .left .adress,
+.admin-edit-order .bottom .left .status,
+.admin-edit-order .bottom .left .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.admin-edit-product .bottom .left .name label, .admin-edit-product .bottom .left .category label, .admin-edit-product .bottom .left .subcategory label, .admin-edit-product .bottom .left .price label, .admin-edit-product .bottom .left .stock label, .admin-edit-product .bottom .left .desc label, .admin-edit-product .bottom .left .order label, .admin-edit-product .bottom .left .path label, .admin-edit-product .bottom .left .email label, .admin-edit-product .bottom .left .amount label, .admin-edit-product .bottom .left .adress label, .admin-edit-product .bottom .left .status label, .admin-edit-product .bottom .left .list label,
+.admin-create-product .bottom .left .name label,
+.admin-create-product .bottom .left .category label,
+.admin-create-product .bottom .left .subcategory label,
+.admin-create-product .bottom .left .price label,
+.admin-create-product .bottom .left .stock label,
+.admin-create-product .bottom .left .desc label,
+.admin-create-product .bottom .left .order label,
+.admin-create-product .bottom .left .path label,
+.admin-create-product .bottom .left .email label,
+.admin-create-product .bottom .left .amount label,
+.admin-create-product .bottom .left .adress label,
+.admin-create-product .bottom .left .status label,
+.admin-create-product .bottom .left .list label,
+.admin-edit-category .bottom .left .name label,
+.admin-edit-category .bottom .left .category label,
+.admin-edit-category .bottom .left .subcategory label,
+.admin-edit-category .bottom .left .price label,
+.admin-edit-category .bottom .left .stock label,
+.admin-edit-category .bottom .left .desc label,
+.admin-edit-category .bottom .left .order label,
+.admin-edit-category .bottom .left .path label,
+.admin-edit-category .bottom .left .email label,
+.admin-edit-category .bottom .left .amount label,
+.admin-edit-category .bottom .left .adress label,
+.admin-edit-category .bottom .left .status label,
+.admin-edit-category .bottom .left .list label,
+.admin-create-category .bottom .left .name label,
+.admin-create-category .bottom .left .category label,
+.admin-create-category .bottom .left .subcategory label,
+.admin-create-category .bottom .left .price label,
+.admin-create-category .bottom .left .stock label,
+.admin-create-category .bottom .left .desc label,
+.admin-create-category .bottom .left .order label,
+.admin-create-category .bottom .left .path label,
+.admin-create-category .bottom .left .email label,
+.admin-create-category .bottom .left .amount label,
+.admin-create-category .bottom .left .adress label,
+.admin-create-category .bottom .left .status label,
+.admin-create-category .bottom .left .list label,
+.admin-edit-slider .bottom .left .name label,
+.admin-edit-slider .bottom .left .category label,
+.admin-edit-slider .bottom .left .subcategory label,
+.admin-edit-slider .bottom .left .price label,
+.admin-edit-slider .bottom .left .stock label,
+.admin-edit-slider .bottom .left .desc label,
+.admin-edit-slider .bottom .left .order label,
+.admin-edit-slider .bottom .left .path label,
+.admin-edit-slider .bottom .left .email label,
+.admin-edit-slider .bottom .left .amount label,
+.admin-edit-slider .bottom .left .adress label,
+.admin-edit-slider .bottom .left .status label,
+.admin-edit-slider .bottom .left .list label,
+.admin-create-slider .bottom .left .name label,
+.admin-create-slider .bottom .left .category label,
+.admin-create-slider .bottom .left .subcategory label,
+.admin-create-slider .bottom .left .price label,
+.admin-create-slider .bottom .left .stock label,
+.admin-create-slider .bottom .left .desc label,
+.admin-create-slider .bottom .left .order label,
+.admin-create-slider .bottom .left .path label,
+.admin-create-slider .bottom .left .email label,
+.admin-create-slider .bottom .left .amount label,
+.admin-create-slider .bottom .left .adress label,
+.admin-create-slider .bottom .left .status label,
+.admin-create-slider .bottom .left .list label,
+.admin-edit-user .bottom .left .name label,
+.admin-edit-user .bottom .left .category label,
+.admin-edit-user .bottom .left .subcategory label,
+.admin-edit-user .bottom .left .price label,
+.admin-edit-user .bottom .left .stock label,
+.admin-edit-user .bottom .left .desc label,
+.admin-edit-user .bottom .left .order label,
+.admin-edit-user .bottom .left .path label,
+.admin-edit-user .bottom .left .email label,
+.admin-edit-user .bottom .left .amount label,
+.admin-edit-user .bottom .left .adress label,
+.admin-edit-user .bottom .left .status label,
+.admin-edit-user .bottom .left .list label,
+.admin-edit-order .bottom .left .name label,
+.admin-edit-order .bottom .left .category label,
+.admin-edit-order .bottom .left .subcategory label,
+.admin-edit-order .bottom .left .price label,
+.admin-edit-order .bottom .left .stock label,
+.admin-edit-order .bottom .left .desc label,
+.admin-edit-order .bottom .left .order label,
+.admin-edit-order .bottom .left .path label,
+.admin-edit-order .bottom .left .email label,
+.admin-edit-order .bottom .left .amount label,
+.admin-edit-order .bottom .left .adress label,
+.admin-edit-order .bottom .left .status label,
+.admin-edit-order .bottom .left .list label {
+  color: rgba(41, 41, 41, 0.7);
+  font-weight: 600;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.admin-edit-product .bottom .left .name input, .admin-edit-product .bottom .left .name select, .admin-edit-product .bottom .left .category input, .admin-edit-product .bottom .left .category select, .admin-edit-product .bottom .left .subcategory input, .admin-edit-product .bottom .left .subcategory select, .admin-edit-product .bottom .left .price input, .admin-edit-product .bottom .left .price select, .admin-edit-product .bottom .left .stock input, .admin-edit-product .bottom .left .stock select, .admin-edit-product .bottom .left .desc input, .admin-edit-product .bottom .left .desc select, .admin-edit-product .bottom .left .order input, .admin-edit-product .bottom .left .order select, .admin-edit-product .bottom .left .path input, .admin-edit-product .bottom .left .path select, .admin-edit-product .bottom .left .email input, .admin-edit-product .bottom .left .email select, .admin-edit-product .bottom .left .amount input, .admin-edit-product .bottom .left .amount select, .admin-edit-product .bottom .left .adress input, .admin-edit-product .bottom .left .adress select, .admin-edit-product .bottom .left .status input, .admin-edit-product .bottom .left .status select, .admin-edit-product .bottom .left .list input, .admin-edit-product .bottom .left .list select,
+.admin-create-product .bottom .left .name input,
+.admin-create-product .bottom .left .name select,
+.admin-create-product .bottom .left .category input,
+.admin-create-product .bottom .left .category select,
+.admin-create-product .bottom .left .subcategory input,
+.admin-create-product .bottom .left .subcategory select,
+.admin-create-product .bottom .left .price input,
+.admin-create-product .bottom .left .price select,
+.admin-create-product .bottom .left .stock input,
+.admin-create-product .bottom .left .stock select,
+.admin-create-product .bottom .left .desc input,
+.admin-create-product .bottom .left .desc select,
+.admin-create-product .bottom .left .order input,
+.admin-create-product .bottom .left .order select,
+.admin-create-product .bottom .left .path input,
+.admin-create-product .bottom .left .path select,
+.admin-create-product .bottom .left .email input,
+.admin-create-product .bottom .left .email select,
+.admin-create-product .bottom .left .amount input,
+.admin-create-product .bottom .left .amount select,
+.admin-create-product .bottom .left .adress input,
+.admin-create-product .bottom .left .adress select,
+.admin-create-product .bottom .left .status input,
+.admin-create-product .bottom .left .status select,
+.admin-create-product .bottom .left .list input,
+.admin-create-product .bottom .left .list select,
+.admin-edit-category .bottom .left .name input,
+.admin-edit-category .bottom .left .name select,
+.admin-edit-category .bottom .left .category input,
+.admin-edit-category .bottom .left .category select,
+.admin-edit-category .bottom .left .subcategory input,
+.admin-edit-category .bottom .left .subcategory select,
+.admin-edit-category .bottom .left .price input,
+.admin-edit-category .bottom .left .price select,
+.admin-edit-category .bottom .left .stock input,
+.admin-edit-category .bottom .left .stock select,
+.admin-edit-category .bottom .left .desc input,
+.admin-edit-category .bottom .left .desc select,
+.admin-edit-category .bottom .left .order input,
+.admin-edit-category .bottom .left .order select,
+.admin-edit-category .bottom .left .path input,
+.admin-edit-category .bottom .left .path select,
+.admin-edit-category .bottom .left .email input,
+.admin-edit-category .bottom .left .email select,
+.admin-edit-category .bottom .left .amount input,
+.admin-edit-category .bottom .left .amount select,
+.admin-edit-category .bottom .left .adress input,
+.admin-edit-category .bottom .left .adress select,
+.admin-edit-category .bottom .left .status input,
+.admin-edit-category .bottom .left .status select,
+.admin-edit-category .bottom .left .list input,
+.admin-edit-category .bottom .left .list select,
+.admin-create-category .bottom .left .name input,
+.admin-create-category .bottom .left .name select,
+.admin-create-category .bottom .left .category input,
+.admin-create-category .bottom .left .category select,
+.admin-create-category .bottom .left .subcategory input,
+.admin-create-category .bottom .left .subcategory select,
+.admin-create-category .bottom .left .price input,
+.admin-create-category .bottom .left .price select,
+.admin-create-category .bottom .left .stock input,
+.admin-create-category .bottom .left .stock select,
+.admin-create-category .bottom .left .desc input,
+.admin-create-category .bottom .left .desc select,
+.admin-create-category .bottom .left .order input,
+.admin-create-category .bottom .left .order select,
+.admin-create-category .bottom .left .path input,
+.admin-create-category .bottom .left .path select,
+.admin-create-category .bottom .left .email input,
+.admin-create-category .bottom .left .email select,
+.admin-create-category .bottom .left .amount input,
+.admin-create-category .bottom .left .amount select,
+.admin-create-category .bottom .left .adress input,
+.admin-create-category .bottom .left .adress select,
+.admin-create-category .bottom .left .status input,
+.admin-create-category .bottom .left .status select,
+.admin-create-category .bottom .left .list input,
+.admin-create-category .bottom .left .list select,
+.admin-edit-slider .bottom .left .name input,
+.admin-edit-slider .bottom .left .name select,
+.admin-edit-slider .bottom .left .category input,
+.admin-edit-slider .bottom .left .category select,
+.admin-edit-slider .bottom .left .subcategory input,
+.admin-edit-slider .bottom .left .subcategory select,
+.admin-edit-slider .bottom .left .price input,
+.admin-edit-slider .bottom .left .price select,
+.admin-edit-slider .bottom .left .stock input,
+.admin-edit-slider .bottom .left .stock select,
+.admin-edit-slider .bottom .left .desc input,
+.admin-edit-slider .bottom .left .desc select,
+.admin-edit-slider .bottom .left .order input,
+.admin-edit-slider .bottom .left .order select,
+.admin-edit-slider .bottom .left .path input,
+.admin-edit-slider .bottom .left .path select,
+.admin-edit-slider .bottom .left .email input,
+.admin-edit-slider .bottom .left .email select,
+.admin-edit-slider .bottom .left .amount input,
+.admin-edit-slider .bottom .left .amount select,
+.admin-edit-slider .bottom .left .adress input,
+.admin-edit-slider .bottom .left .adress select,
+.admin-edit-slider .bottom .left .status input,
+.admin-edit-slider .bottom .left .status select,
+.admin-edit-slider .bottom .left .list input,
+.admin-edit-slider .bottom .left .list select,
+.admin-create-slider .bottom .left .name input,
+.admin-create-slider .bottom .left .name select,
+.admin-create-slider .bottom .left .category input,
+.admin-create-slider .bottom .left .category select,
+.admin-create-slider .bottom .left .subcategory input,
+.admin-create-slider .bottom .left .subcategory select,
+.admin-create-slider .bottom .left .price input,
+.admin-create-slider .bottom .left .price select,
+.admin-create-slider .bottom .left .stock input,
+.admin-create-slider .bottom .left .stock select,
+.admin-create-slider .bottom .left .desc input,
+.admin-create-slider .bottom .left .desc select,
+.admin-create-slider .bottom .left .order input,
+.admin-create-slider .bottom .left .order select,
+.admin-create-slider .bottom .left .path input,
+.admin-create-slider .bottom .left .path select,
+.admin-create-slider .bottom .left .email input,
+.admin-create-slider .bottom .left .email select,
+.admin-create-slider .bottom .left .amount input,
+.admin-create-slider .bottom .left .amount select,
+.admin-create-slider .bottom .left .adress input,
+.admin-create-slider .bottom .left .adress select,
+.admin-create-slider .bottom .left .status input,
+.admin-create-slider .bottom .left .status select,
+.admin-create-slider .bottom .left .list input,
+.admin-create-slider .bottom .left .list select,
+.admin-edit-user .bottom .left .name input,
+.admin-edit-user .bottom .left .name select,
+.admin-edit-user .bottom .left .category input,
+.admin-edit-user .bottom .left .category select,
+.admin-edit-user .bottom .left .subcategory input,
+.admin-edit-user .bottom .left .subcategory select,
+.admin-edit-user .bottom .left .price input,
+.admin-edit-user .bottom .left .price select,
+.admin-edit-user .bottom .left .stock input,
+.admin-edit-user .bottom .left .stock select,
+.admin-edit-user .bottom .left .desc input,
+.admin-edit-user .bottom .left .desc select,
+.admin-edit-user .bottom .left .order input,
+.admin-edit-user .bottom .left .order select,
+.admin-edit-user .bottom .left .path input,
+.admin-edit-user .bottom .left .path select,
+.admin-edit-user .bottom .left .email input,
+.admin-edit-user .bottom .left .email select,
+.admin-edit-user .bottom .left .amount input,
+.admin-edit-user .bottom .left .amount select,
+.admin-edit-user .bottom .left .adress input,
+.admin-edit-user .bottom .left .adress select,
+.admin-edit-user .bottom .left .status input,
+.admin-edit-user .bottom .left .status select,
+.admin-edit-user .bottom .left .list input,
+.admin-edit-user .bottom .left .list select,
+.admin-edit-order .bottom .left .name input,
+.admin-edit-order .bottom .left .name select,
+.admin-edit-order .bottom .left .category input,
+.admin-edit-order .bottom .left .category select,
+.admin-edit-order .bottom .left .subcategory input,
+.admin-edit-order .bottom .left .subcategory select,
+.admin-edit-order .bottom .left .price input,
+.admin-edit-order .bottom .left .price select,
+.admin-edit-order .bottom .left .stock input,
+.admin-edit-order .bottom .left .stock select,
+.admin-edit-order .bottom .left .desc input,
+.admin-edit-order .bottom .left .desc select,
+.admin-edit-order .bottom .left .order input,
+.admin-edit-order .bottom .left .order select,
+.admin-edit-order .bottom .left .path input,
+.admin-edit-order .bottom .left .path select,
+.admin-edit-order .bottom .left .email input,
+.admin-edit-order .bottom .left .email select,
+.admin-edit-order .bottom .left .amount input,
+.admin-edit-order .bottom .left .amount select,
+.admin-edit-order .bottom .left .adress input,
+.admin-edit-order .bottom .left .adress select,
+.admin-edit-order .bottom .left .status input,
+.admin-edit-order .bottom .left .status select,
+.admin-edit-order .bottom .left .list input,
+.admin-edit-order .bottom .left .list select {
+  color: #292929;
+  font-size: 1rem;
+  height: 2rem;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: #292929 1px solid;
+}
+
+.admin-edit-product .bottom .left .name textarea, .admin-edit-product .bottom .left .category textarea, .admin-edit-product .bottom .left .subcategory textarea, .admin-edit-product .bottom .left .price textarea, .admin-edit-product .bottom .left .stock textarea, .admin-edit-product .bottom .left .desc textarea, .admin-edit-product .bottom .left .order textarea, .admin-edit-product .bottom .left .path textarea, .admin-edit-product .bottom .left .email textarea, .admin-edit-product .bottom .left .amount textarea, .admin-edit-product .bottom .left .adress textarea, .admin-edit-product .bottom .left .status textarea, .admin-edit-product .bottom .left .list textarea,
+.admin-create-product .bottom .left .name textarea,
+.admin-create-product .bottom .left .category textarea,
+.admin-create-product .bottom .left .subcategory textarea,
+.admin-create-product .bottom .left .price textarea,
+.admin-create-product .bottom .left .stock textarea,
+.admin-create-product .bottom .left .desc textarea,
+.admin-create-product .bottom .left .order textarea,
+.admin-create-product .bottom .left .path textarea,
+.admin-create-product .bottom .left .email textarea,
+.admin-create-product .bottom .left .amount textarea,
+.admin-create-product .bottom .left .adress textarea,
+.admin-create-product .bottom .left .status textarea,
+.admin-create-product .bottom .left .list textarea,
+.admin-edit-category .bottom .left .name textarea,
+.admin-edit-category .bottom .left .category textarea,
+.admin-edit-category .bottom .left .subcategory textarea,
+.admin-edit-category .bottom .left .price textarea,
+.admin-edit-category .bottom .left .stock textarea,
+.admin-edit-category .bottom .left .desc textarea,
+.admin-edit-category .bottom .left .order textarea,
+.admin-edit-category .bottom .left .path textarea,
+.admin-edit-category .bottom .left .email textarea,
+.admin-edit-category .bottom .left .amount textarea,
+.admin-edit-category .bottom .left .adress textarea,
+.admin-edit-category .bottom .left .status textarea,
+.admin-edit-category .bottom .left .list textarea,
+.admin-create-category .bottom .left .name textarea,
+.admin-create-category .bottom .left .category textarea,
+.admin-create-category .bottom .left .subcategory textarea,
+.admin-create-category .bottom .left .price textarea,
+.admin-create-category .bottom .left .stock textarea,
+.admin-create-category .bottom .left .desc textarea,
+.admin-create-category .bottom .left .order textarea,
+.admin-create-category .bottom .left .path textarea,
+.admin-create-category .bottom .left .email textarea,
+.admin-create-category .bottom .left .amount textarea,
+.admin-create-category .bottom .left .adress textarea,
+.admin-create-category .bottom .left .status textarea,
+.admin-create-category .bottom .left .list textarea,
+.admin-edit-slider .bottom .left .name textarea,
+.admin-edit-slider .bottom .left .category textarea,
+.admin-edit-slider .bottom .left .subcategory textarea,
+.admin-edit-slider .bottom .left .price textarea,
+.admin-edit-slider .bottom .left .stock textarea,
+.admin-edit-slider .bottom .left .desc textarea,
+.admin-edit-slider .bottom .left .order textarea,
+.admin-edit-slider .bottom .left .path textarea,
+.admin-edit-slider .bottom .left .email textarea,
+.admin-edit-slider .bottom .left .amount textarea,
+.admin-edit-slider .bottom .left .adress textarea,
+.admin-edit-slider .bottom .left .status textarea,
+.admin-edit-slider .bottom .left .list textarea,
+.admin-create-slider .bottom .left .name textarea,
+.admin-create-slider .bottom .left .category textarea,
+.admin-create-slider .bottom .left .subcategory textarea,
+.admin-create-slider .bottom .left .price textarea,
+.admin-create-slider .bottom .left .stock textarea,
+.admin-create-slider .bottom .left .desc textarea,
+.admin-create-slider .bottom .left .order textarea,
+.admin-create-slider .bottom .left .path textarea,
+.admin-create-slider .bottom .left .email textarea,
+.admin-create-slider .bottom .left .amount textarea,
+.admin-create-slider .bottom .left .adress textarea,
+.admin-create-slider .bottom .left .status textarea,
+.admin-create-slider .bottom .left .list textarea,
+.admin-edit-user .bottom .left .name textarea,
+.admin-edit-user .bottom .left .category textarea,
+.admin-edit-user .bottom .left .subcategory textarea,
+.admin-edit-user .bottom .left .price textarea,
+.admin-edit-user .bottom .left .stock textarea,
+.admin-edit-user .bottom .left .desc textarea,
+.admin-edit-user .bottom .left .order textarea,
+.admin-edit-user .bottom .left .path textarea,
+.admin-edit-user .bottom .left .email textarea,
+.admin-edit-user .bottom .left .amount textarea,
+.admin-edit-user .bottom .left .adress textarea,
+.admin-edit-user .bottom .left .status textarea,
+.admin-edit-user .bottom .left .list textarea,
+.admin-edit-order .bottom .left .name textarea,
+.admin-edit-order .bottom .left .category textarea,
+.admin-edit-order .bottom .left .subcategory textarea,
+.admin-edit-order .bottom .left .price textarea,
+.admin-edit-order .bottom .left .stock textarea,
+.admin-edit-order .bottom .left .desc textarea,
+.admin-edit-order .bottom .left .order textarea,
+.admin-edit-order .bottom .left .path textarea,
+.admin-edit-order .bottom .left .email textarea,
+.admin-edit-order .bottom .left .amount textarea,
+.admin-edit-order .bottom .left .adress textarea,
+.admin-edit-order .bottom .left .status textarea,
+.admin-edit-order .bottom .left .list textarea {
+  overflow: auto;
+  resize: none;
+  font-size: 1rem;
+  height: 10rem;
+}
+
+.admin-edit-product .bottom .left .name div, .admin-edit-product .bottom .left .category div, .admin-edit-product .bottom .left .subcategory div, .admin-edit-product .bottom .left .price div, .admin-edit-product .bottom .left .stock div, .admin-edit-product .bottom .left .desc div, .admin-edit-product .bottom .left .order div, .admin-edit-product .bottom .left .path div, .admin-edit-product .bottom .left .email div, .admin-edit-product .bottom .left .amount div, .admin-edit-product .bottom .left .adress div, .admin-edit-product .bottom .left .status div, .admin-edit-product .bottom .left .list div,
+.admin-create-product .bottom .left .name div,
+.admin-create-product .bottom .left .category div,
+.admin-create-product .bottom .left .subcategory div,
+.admin-create-product .bottom .left .price div,
+.admin-create-product .bottom .left .stock div,
+.admin-create-product .bottom .left .desc div,
+.admin-create-product .bottom .left .order div,
+.admin-create-product .bottom .left .path div,
+.admin-create-product .bottom .left .email div,
+.admin-create-product .bottom .left .amount div,
+.admin-create-product .bottom .left .adress div,
+.admin-create-product .bottom .left .status div,
+.admin-create-product .bottom .left .list div,
+.admin-edit-category .bottom .left .name div,
+.admin-edit-category .bottom .left .category div,
+.admin-edit-category .bottom .left .subcategory div,
+.admin-edit-category .bottom .left .price div,
+.admin-edit-category .bottom .left .stock div,
+.admin-edit-category .bottom .left .desc div,
+.admin-edit-category .bottom .left .order div,
+.admin-edit-category .bottom .left .path div,
+.admin-edit-category .bottom .left .email div,
+.admin-edit-category .bottom .left .amount div,
+.admin-edit-category .bottom .left .adress div,
+.admin-edit-category .bottom .left .status div,
+.admin-edit-category .bottom .left .list div,
+.admin-create-category .bottom .left .name div,
+.admin-create-category .bottom .left .category div,
+.admin-create-category .bottom .left .subcategory div,
+.admin-create-category .bottom .left .price div,
+.admin-create-category .bottom .left .stock div,
+.admin-create-category .bottom .left .desc div,
+.admin-create-category .bottom .left .order div,
+.admin-create-category .bottom .left .path div,
+.admin-create-category .bottom .left .email div,
+.admin-create-category .bottom .left .amount div,
+.admin-create-category .bottom .left .adress div,
+.admin-create-category .bottom .left .status div,
+.admin-create-category .bottom .left .list div,
+.admin-edit-slider .bottom .left .name div,
+.admin-edit-slider .bottom .left .category div,
+.admin-edit-slider .bottom .left .subcategory div,
+.admin-edit-slider .bottom .left .price div,
+.admin-edit-slider .bottom .left .stock div,
+.admin-edit-slider .bottom .left .desc div,
+.admin-edit-slider .bottom .left .order div,
+.admin-edit-slider .bottom .left .path div,
+.admin-edit-slider .bottom .left .email div,
+.admin-edit-slider .bottom .left .amount div,
+.admin-edit-slider .bottom .left .adress div,
+.admin-edit-slider .bottom .left .status div,
+.admin-edit-slider .bottom .left .list div,
+.admin-create-slider .bottom .left .name div,
+.admin-create-slider .bottom .left .category div,
+.admin-create-slider .bottom .left .subcategory div,
+.admin-create-slider .bottom .left .price div,
+.admin-create-slider .bottom .left .stock div,
+.admin-create-slider .bottom .left .desc div,
+.admin-create-slider .bottom .left .order div,
+.admin-create-slider .bottom .left .path div,
+.admin-create-slider .bottom .left .email div,
+.admin-create-slider .bottom .left .amount div,
+.admin-create-slider .bottom .left .adress div,
+.admin-create-slider .bottom .left .status div,
+.admin-create-slider .bottom .left .list div,
+.admin-edit-user .bottom .left .name div,
+.admin-edit-user .bottom .left .category div,
+.admin-edit-user .bottom .left .subcategory div,
+.admin-edit-user .bottom .left .price div,
+.admin-edit-user .bottom .left .stock div,
+.admin-edit-user .bottom .left .desc div,
+.admin-edit-user .bottom .left .order div,
+.admin-edit-user .bottom .left .path div,
+.admin-edit-user .bottom .left .email div,
+.admin-edit-user .bottom .left .amount div,
+.admin-edit-user .bottom .left .adress div,
+.admin-edit-user .bottom .left .status div,
+.admin-edit-user .bottom .left .list div,
+.admin-edit-order .bottom .left .name div,
+.admin-edit-order .bottom .left .category div,
+.admin-edit-order .bottom .left .subcategory div,
+.admin-edit-order .bottom .left .price div,
+.admin-edit-order .bottom .left .stock div,
+.admin-edit-order .bottom .left .desc div,
+.admin-edit-order .bottom .left .order div,
+.admin-edit-order .bottom .left .path div,
+.admin-edit-order .bottom .left .email div,
+.admin-edit-order .bottom .left .amount div,
+.admin-edit-order .bottom .left .adress div,
+.admin-edit-order .bottom .left .status div,
+.admin-edit-order .bottom .left .list div {
+  color: #292929;
+  font-size: 1rem;
+  height: 2rem;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: #292929 1px solid;
+}
+
+.admin-edit-product .bottom .right,
+.admin-create-product .bottom .right,
+.admin-edit-category .bottom .right,
+.admin-create-category .bottom .right,
+.admin-edit-slider .bottom .right,
+.admin-create-slider .bottom .right,
+.admin-edit-user .bottom .right,
+.admin-edit-order .bottom .right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.admin-edit-product .bottom .right .image,
+.admin-create-product .bottom .right .image,
+.admin-edit-category .bottom .right .image,
+.admin-create-category .bottom .right .image,
+.admin-edit-slider .bottom .right .image,
+.admin-create-slider .bottom .right .image,
+.admin-edit-user .bottom .right .image,
+.admin-edit-order .bottom .right .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.admin-edit-product .bottom .right .image img,
+.admin-create-product .bottom .right .image img,
+.admin-edit-category .bottom .right .image img,
+.admin-create-category .bottom .right .image img,
+.admin-edit-slider .bottom .right .image img,
+.admin-create-slider .bottom .right .image img,
+.admin-edit-user .bottom .right .image img,
+.admin-edit-order .bottom .right .image img {
+  height: 30vh;
+  -o-object-fit: contain;
+     object-fit: contain;
+  max-width: 100%;
+}
+
+.admin-edit-product .bottom .right .file,
+.admin-create-product .bottom .right .file,
+.admin-edit-category .bottom .right .file,
+.admin-create-category .bottom .right .file,
+.admin-edit-slider .bottom .right .file,
+.admin-create-slider .bottom .right .file,
+.admin-edit-user .bottom .right .file,
+.admin-edit-order .bottom .right .file {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.admin-edit-product .bottom .right .file .file1,
+.admin-create-product .bottom .right .file .file1,
+.admin-edit-category .bottom .right .file .file1,
+.admin-create-category .bottom .right .file .file1,
+.admin-edit-slider .bottom .right .file .file1,
+.admin-create-slider .bottom .right .file .file1,
+.admin-edit-user .bottom .right .file .file1,
+.admin-edit-order .bottom .right .file .file1 {
+  -webkit-box-flex: 9;
+      -ms-flex: 9;
+          flex: 9;
+}
+
+.admin-edit-product .bottom .right .file1,
+.admin-create-product .bottom .right .file1,
+.admin-edit-category .bottom .right .file1,
+.admin-create-category .bottom .right .file1,
+.admin-edit-slider .bottom .right .file1,
+.admin-create-slider .bottom .right .file1,
+.admin-edit-user .bottom .right .file1,
+.admin-edit-order .bottom .right .file1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.admin-edit-product .bottom .right .file1 label,
+.admin-create-product .bottom .right .file1 label,
+.admin-edit-category .bottom .right .file1 label,
+.admin-create-category .bottom .right .file1 label,
+.admin-edit-slider .bottom .right .file1 label,
+.admin-create-slider .bottom .right .file1 label,
+.admin-edit-user .bottom .right .file1 label,
+.admin-edit-order .bottom .right .file1 label {
+  color: rgba(41, 41, 41, 0.7);
+  font-weight: 600;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.admin-edit-product .bottom .right .file1 input,
+.admin-create-product .bottom .right .file1 input,
+.admin-edit-category .bottom .right .file1 input,
+.admin-create-category .bottom .right .file1 input,
+.admin-edit-slider .bottom .right .file1 input,
+.admin-create-slider .bottom .right .file1 input,
+.admin-edit-user .bottom .right .file1 input,
+.admin-edit-order .bottom .right .file1 input {
+  color: #292929;
+  font-size: 1rem;
+  height: 2rem;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: #292929 1px solid;
+}
+
+.admin-edit-product .bottom .right .file1 input[type=file]::file-selector-button,
+.admin-create-product .bottom .right .file1 input[type=file]::file-selector-button,
+.admin-edit-category .bottom .right .file1 input[type=file]::file-selector-button,
+.admin-create-category .bottom .right .file1 input[type=file]::file-selector-button,
+.admin-edit-slider .bottom .right .file1 input[type=file]::file-selector-button,
+.admin-create-slider .bottom .right .file1 input[type=file]::file-selector-button,
+.admin-edit-user .bottom .right .file1 input[type=file]::file-selector-button,
+.admin-edit-order .bottom .right .file1 input[type=file]::file-selector-button {
+  border-radius: 5px;
+  border: none;
+  padding: 5px 15px;
+  margin-right: 10px;
+  background-color: #292929;
+  color: #ebebeb;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+
+.admin-edit-product .bottom .right .file1 input[type=file]::file-selector-button:hover,
+.admin-create-product .bottom .right .file1 input[type=file]::file-selector-button:hover,
+.admin-edit-category .bottom .right .file1 input[type=file]::file-selector-button:hover,
+.admin-create-category .bottom .right .file1 input[type=file]::file-selector-button:hover,
+.admin-edit-slider .bottom .right .file1 input[type=file]::file-selector-button:hover,
+.admin-create-slider .bottom .right .file1 input[type=file]::file-selector-button:hover,
+.admin-edit-user .bottom .right .file1 input[type=file]::file-selector-button:hover,
+.admin-edit-order .bottom .right .file1 input[type=file]::file-selector-button:hover {
+  cursor: pointer;
+  background-color: #ebebeb;
+  color: #292929;
+}
+
+.admin-edit-product .bottom .right .title,
+.admin-create-product .bottom .right .title,
+.admin-edit-category .bottom .right .title,
+.admin-create-category .bottom .right .title,
+.admin-edit-slider .bottom .right .title,
+.admin-create-slider .bottom .right .title,
+.admin-edit-user .bottom .right .title,
+.admin-edit-order .bottom .right .title {
+  color: rgba(41, 41, 41, 0.7);
+  font-weight: 600;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.admin-edit-product .bottom .right .list,
+.admin-create-product .bottom .right .list,
+.admin-edit-category .bottom .right .list,
+.admin-create-category .bottom .right .list,
+.admin-edit-slider .bottom .right .list,
+.admin-create-slider .bottom .right .list,
+.admin-edit-user .bottom .right .list,
+.admin-edit-order .bottom .right .list {
+  width: 100%;
+}
+
+.admin-edit-product .bottom .right .list .item,
+.admin-create-product .bottom .right .list .item,
+.admin-edit-category .bottom .right .list .item,
+.admin-create-category .bottom .right .list .item,
+.admin-edit-slider .bottom .right .list .item,
+.admin-create-slider .bottom .right .list .item,
+.admin-edit-user .bottom .right .list .item,
+.admin-edit-order .bottom .right .list .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: #292929 1px solid;
+}
+
+.admin-edit-product .bottom .right .list .item .wrapper,
+.admin-create-product .bottom .right .list .item .wrapper,
+.admin-edit-category .bottom .right .list .item .wrapper,
+.admin-create-category .bottom .right .list .item .wrapper,
+.admin-edit-slider .bottom .right .list .item .wrapper,
+.admin-create-slider .bottom .right .list .item .wrapper,
+.admin-edit-user .bottom .right .list .item .wrapper,
+.admin-edit-order .bottom .right .list .item .wrapper {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .admin-edit-product .bottom .right .list .item .wrapper,
+  .admin-create-product .bottom .right .list .item .wrapper,
+  .admin-edit-category .bottom .right .list .item .wrapper,
+  .admin-create-category .bottom .right .list .item .wrapper,
+  .admin-edit-slider .bottom .right .list .item .wrapper,
+  .admin-create-slider .bottom .right .list .item .wrapper,
+  .admin-edit-user .bottom .right .list .item .wrapper,
+  .admin-edit-order .bottom .right .list .item .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.admin-edit-product .bottom .right .list .item .wrapper .details,
+.admin-create-product .bottom .right .list .item .wrapper .details,
+.admin-edit-category .bottom .right .list .item .wrapper .details,
+.admin-create-category .bottom .right .list .item .wrapper .details,
+.admin-edit-slider .bottom .right .list .item .wrapper .details,
+.admin-create-slider .bottom .right .list .item .wrapper .details,
+.admin-edit-user .bottom .right .list .item .wrapper .details,
+.admin-edit-order .bottom .right .list .item .wrapper .details {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.admin-edit-product .bottom .right .list .item .wrapper .qty,
+.admin-create-product .bottom .right .list .item .wrapper .qty,
+.admin-edit-category .bottom .right .list .item .wrapper .qty,
+.admin-create-category .bottom .right .list .item .wrapper .qty,
+.admin-edit-slider .bottom .right .list .item .wrapper .qty,
+.admin-create-slider .bottom .right .list .item .wrapper .qty,
+.admin-edit-user .bottom .right .list .item .wrapper .qty,
+.admin-edit-order .bottom .right .list .item .wrapper .qty {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.admin-edit-product .bottom .right .list .item .wrapper .qty div,
+.admin-create-product .bottom .right .list .item .wrapper .qty div,
+.admin-edit-category .bottom .right .list .item .wrapper .qty div,
+.admin-create-category .bottom .right .list .item .wrapper .qty div,
+.admin-edit-slider .bottom .right .list .item .wrapper .qty div,
+.admin-create-slider .bottom .right .list .item .wrapper .qty div,
+.admin-edit-user .bottom .right .list .item .wrapper .qty div,
+.admin-edit-order .bottom .right .list .item .wrapper .qty div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 10px;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.admin-edit-product .bottom .right .list .item .wrapper .price,
+.admin-create-product .bottom .right .list .item .wrapper .price,
+.admin-edit-category .bottom .right .list .item .wrapper .price,
+.admin-create-category .bottom .right .list .item .wrapper .price,
+.admin-edit-slider .bottom .right .list .item .wrapper .price,
+.admin-create-slider .bottom .right .list .item .wrapper .price,
+.admin-edit-user .bottom .right .list .item .wrapper .price,
+.admin-edit-order .bottom .right .list .item .wrapper .price {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.admin-edit-product .save,
+.admin-create-product .save,
+.admin-edit-category .save,
+.admin-create-category .save,
+.admin-edit-slider .save,
+.admin-create-slider .save,
+.admin-edit-user .save,
+.admin-edit-order .save {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.admin-edit-product .save button,
+.admin-create-product .save button,
+.admin-edit-category .save button,
+.admin-create-category .save button,
+.admin-edit-slider .save button,
+.admin-create-slider .save button,
+.admin-edit-user .save button,
+.admin-edit-order .save button {
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  background-color: #292929;
+  color: #ebebeb;
+  border-radius: 5px;
+  padding: 10px 30px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  width: 200px;
+}
+
+.admin-edit-product .save button:hover,
+.admin-create-product .save button:hover,
+.admin-edit-category .save button:hover,
+.admin-create-category .save button:hover,
+.admin-edit-slider .save button:hover,
+.admin-create-slider .save button:hover,
+.admin-edit-user .save button:hover,
+.admin-edit-order .save button:hover {
+  background-color: #bb7900;
+  color: #ebebeb;
+}
+
+.admin-edit-product .create,
+.admin-create-product .create,
+.admin-edit-category .create,
+.admin-create-category .create,
+.admin-edit-slider .create,
+.admin-create-slider .create,
+.admin-edit-user .create,
+.admin-edit-order .create {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.admin-edit-product .create button,
+.admin-create-product .create button,
+.admin-edit-category .create button,
+.admin-create-category .create button,
+.admin-edit-slider .create button,
+.admin-create-slider .create button,
+.admin-edit-user .create button,
+.admin-edit-order .create button {
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  background-color: #292929;
+  color: #ebebeb;
+  border-radius: 5px;
+  padding: 10px 30px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  width: 200px;
+}
+
+.admin-edit-product .create button:hover,
+.admin-create-product .create button:hover,
+.admin-edit-category .create button:hover,
+.admin-create-category .create button:hover,
+.admin-edit-slider .create button:hover,
+.admin-create-slider .create button:hover,
+.admin-edit-user .create button:hover,
+.admin-edit-order .create button:hover {
+  background-color: #3a9109;
+  color: #ebebeb;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  margin: 0;
+  padding: 0;
+}
+
+body a, body .link {
+  text-decoration: none;
+  color: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.products {
+  padding: 2vh 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.products .sidebar {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+@media (max-width: 992px) {
+  .products .sidebar {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+  }
+}
+
+@media (max-width: 768px) {
+  .products .sidebar {
+    display: none;
+  }
+}
+
+.products .main {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+}
+
+.products .main .product-list {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+  padding: 0;
+}
+
+.product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.login, .register {
+  padding: 2vh 10vw;
+  height: 80vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(black)), url("https://barberstore.pl/img/cms/t%C5%82o(2).jpg") center;
+  background: linear-gradient(rgba(0, 0, 0, 0), black), url("https://barberstore.pl/img/cms/t%C5%82o(2).jpg") center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cart {
+  padding: 2vh 10vw;
+}
+
+.admin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=index.css.map */

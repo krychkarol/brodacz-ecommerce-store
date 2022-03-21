@@ -1,0 +1,343 @@
+@import './variables';
+
+.navbar{
+    background-color: $Dark;
+    color: $Light;
+    padding: $Padding;
+
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .top{
+            @media (max-width:#{$sm}) {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+
+            .left{
+                flex: 1;
+                @media (max-width:#{$md}) {
+                    display: none;
+                }
+
+                .search{
+                    display: flex;
+                    align-items: center;
+                    background-color: $White;
+                    padding: 5px;
+                    border-radius: 5px;
+                    width: fit-content;
+                    background-color: $Light;
+
+                    input{
+                        border: none;
+                        height: 2rem;
+                        font-size: 1rem;
+                        background-color: transparent;
+                    }
+                    input:focus{
+                        outline: none;
+                    }
+
+                    .icon{
+                        margin-left: 5px;
+                        padding: 2px;
+                        color: $Dark;
+                        border-radius: 50%;
+                        transition: all 0.5s ease;
+                    }
+
+                    .icon:hover{
+                        cursor: pointer;
+                        color: $Light;
+                        background-color: $Dark;
+                    }
+
+                    .search-link{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+
+            .center{
+                flex: 1;
+                @media (max-width:#{$sm}) {
+                    width: 100%;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+
+                .toggle-btn{
+                    @media (max-width:#{$sm}) {
+                        display: flex;
+                    }
+    
+                    display: none;
+
+                    .icon{
+                        font-size: 2.2rem;
+                        margin: 0 5px;
+                        padding: 2px;
+                        border-radius: 50%;
+                        transition: all 0.5s ease;
+                    }
+    
+                    .icon:hover,.icon.active{
+                        cursor: pointer;
+                        color: $Dark;
+                        background-color: $Light;
+                    }
+                }
+
+                img{
+                    @media (max-width:#{$lg}) {
+                        display: none;
+                    }
+                    
+                    height: 3rem;
+                    margin-right: 1rem;
+                }
+
+                .title{
+                    @include title(3rem,900);
+                    @media (max-width:#{$lg}) {
+                        margin-left: 15px;
+                    }
+                }
+            }
+
+            .right{
+                flex: 1;
+                @media (max-width:#{$sm}) {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    width: 100%;
+                }
+
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-end;
+
+                .icon{
+                    font-size: 2.2rem;
+                    margin: 0 5px;
+                    padding: 2px;
+                    border-radius: 50%;
+                    transition: all 0.5s ease;
+                }
+
+                .icon:hover{
+                    cursor: pointer;
+                    color: $Dark;
+                    background-color: $Light;
+                }
+
+                .login-dropdown{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: relative;
+                    transition: all 0.5s ease;
+                    border-radius: 50%;
+
+                    .icon-drop{
+                        font-size: 2.2rem;
+                        margin: 0 5px;
+                        padding: 2px;
+                    }
+
+                    .dropdown-list{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        visibility: hidden;
+                        opacity: 0;
+                        position: absolute;
+                        color: $Dark;
+                        background-color: $Light;
+                        box-shadow: 0px 30px 20px 0px $Dark;
+                        z-index: 1;
+                        right: 0;
+                        top: 100%;
+                        border-radius: 0.5rem;
+                        border-top-right-radius: 0;
+                        transition: all 0.5s ease;
+    
+                        .item{
+                            padding: 1rem;
+                            width: 200px;
+                            text-align: center;
+                        }
+    
+                        .item:hover{
+                            background-color: $White;
+                            border-radius: 0.5rem;
+                        }
+                    }
+                }
+
+                .login-dropdown:hover{
+
+                    background-color: $Light;
+                    color: $Dark;
+                    border-radius: 50%;
+                    border-bottom-left-radius: 0;
+                    border-bottom-right-radius: 0;
+                    cursor: pointer;
+
+                    .dropdown-list{
+                        color: $Dark;
+                        visibility: visible;
+                        opacity: 1;
+                        display: flex;
+                        border-bottom-left-radius: 0.5rem;
+                        border-bottom-right-radius: 0.5rem;
+                    }
+
+                }
+            }
+        }
+
+        .bottom{
+            @media (max-width:#{$lg}) {
+                width: 100%;
+            }
+
+            margin-top: 10px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 70%;
+
+            .category{
+                @media (max-width:#{$sm}) {
+                    display: none;
+                }
+                color: $White;
+                flex: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 0.5rem 0;
+                margin: 0 0.5rem;
+                border-radius: 0.5rem;
+                transition: all 0.5s ease;
+                position: relative;
+
+                .title{
+                    @include title(1.4rem,300);
+                    color: $White;
+                }
+
+                .dropdown-list{
+                    color: $Dark;
+                    display: none;
+                    flex-direction: column;
+                    position: absolute;
+                    background-color: $Light;
+                    box-shadow: 0px 30px 20px 0px $Dark;
+                    z-index: 1;
+                    width: 100%;
+                    left: 0;
+                    top: 100%;
+
+                    .item{
+                        padding: 1rem;
+                    }
+
+                    .item:hover{
+                        background-color: $White;
+                        border-radius: 0.5rem;
+                    }
+                }
+            }
+
+            .category:hover{
+                background-color: $Light;
+                color: $Dark;
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 0;
+                cursor: pointer;
+
+                .title{
+                    @include title(1.4rem,300);
+                    color: $Dark;
+                }
+
+                .dropdown-list{
+                    display: flex;
+                    border-bottom-left-radius: 0.5rem;
+                    border-bottom-right-radius: 0.5rem;
+                }
+            }
+        }
+
+        .toggle-menu{
+            width: 100%;
+            display: none;
+
+            .toggle-category{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 0.5rem 0;
+                margin: 0 0.5rem;
+                border-radius: 0.5rem;
+                transition: all 0.5s ease;
+
+                .title{
+                    @include title(1.4rem,300);
+                }
+
+                .dropdown-list{
+                    display: none;
+                    flex-direction: column;
+                    background-color: $Light;
+                    z-index: 1;
+                    width: 100%;
+                    left: 0;
+                    top: 100%;
+
+                    .item{
+                        padding: 1rem;
+                    }
+
+                    .item:hover{
+                        background-color: $White;
+                        border-radius: 0.5rem;
+                    }
+                }
+            }
+
+            .toggle-category:hover{
+                background-color: $Light;
+                color: $Dark;
+                cursor: pointer;
+
+                .dropdown-list{
+                    display: flex;
+                }
+            }
+        }
+    }
+}
