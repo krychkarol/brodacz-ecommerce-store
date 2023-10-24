@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = 'http://147.135.208.185:5000/api/';
+const BASE_URL = 'https://brodacz.api.krychkarol.pl/api/';
 
 const user = JSON.parse(localStorage.getItem("persist:root"))?.user;
 const currentUser = user && JSON.parse(user).currentUser;
