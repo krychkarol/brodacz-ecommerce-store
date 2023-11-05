@@ -1,4 +1,4 @@
-# Brodacz - E-Commerce Store
+# Brodacz - E Commerce Store
 
 ## General info
 This project is a MERN website for an online store application
